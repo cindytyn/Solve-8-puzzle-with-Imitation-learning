@@ -1,10 +1,8 @@
-
-
-def test():
-    print("test")
+import sys
+from dataprocess import *
 
 #########################################################################################
 
 if __name__ == "__main__":
     print("CMPT417 Final Project")
-    test()
+    read_instance()
