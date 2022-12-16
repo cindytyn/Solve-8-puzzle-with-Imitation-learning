@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 
 global_dataset_list = []
-global_sollutions_list = []
+# global_solutions_list = []
 
 def manhattan_distance(state, goal):
   # Create a dictionary to store the positions of the tiles in the current state
@@ -248,7 +248,7 @@ if __name__ == "__main__":
   # define the goal state for the 8 puzzle
   goal_state = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
 
-  for i in range(500):
+  for i in range(5):
     state = generate_random_8_puzzle_state()
     # if str(state) not in global_dataset_dict.keys():
     #   global_dataset_dict[str(state)] = state
@@ -267,13 +267,13 @@ if __name__ == "__main__":
 
   
 
-  with pd.option_context('display.max_rows', None,
-                       'display.max_columns', None,
-                       'display.precision', 3,
-                       ):
-    print(global_df_dataset)
+  # with pd.option_context('display.max_rows', None,
+  #                      'display.max_columns', None,
+  #                      'display.precision', 3,
+  #                      ):
+  #   print(global_df_dataset)
 
-  global_df_dataset.to_csv("dataset_df.csv")
+  # global_df_dataset.to_csv("dataset_df.csv")
   global_solutions_df.to_csv("dataset_solutions_df.csv")
 
 
