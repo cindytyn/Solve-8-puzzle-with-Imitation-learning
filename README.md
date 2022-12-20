@@ -1,5 +1,5 @@
 # Code Structure and Dataset:
-The folders labels are self explanatory and the Collab notebook files (.ipynb) as well. We have two helper notebooks prefixed with “Helper”. 
+The folders labels are self explanatory and the Collab notebook files (.ipynb) as well. 
 ---------------
 # Project Link:
 
